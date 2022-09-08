@@ -1,0 +1,106 @@
+html {
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+    text-align: center;
+}
+
+header {
+    margin: 0;
+    background-color: #333;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.topics {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.introduction {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #aaa;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.topics a {
+    text-decoration: none;
+}
+
+.topics subtitle {
+    background-color: lightskyblue;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0.1rem 0.1rem gray;
+}
+
+.post:hover {
+    box-shadow: 0 0.1rem 0.4rem black;
+    transition: all 0.1s ease;
+}
+
+.post h1 {
+    color: black;
+}
+
+.post p {
+    background-color: lightslategray;
+    color: white;
+    border-radius: 10px;
+    width: auto;
+}
+
+footer {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    margin-bottom: 3px;
+}
+
+footer p {
+    text-align: right;
+    text-shadow: 1px 1px #ccc;
+}
+
+footer ul li {
+    background-color: #ddd;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    text-shadow: 1px 1px #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li:hover {
+    background-color: #ccc;
+}
